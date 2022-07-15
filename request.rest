@@ -1,0 +1,13 @@
+###
+POST  http://localhost:3003/galodio/signup
+Content-Type: application/json
+
+{
+    "nome": "Lucas Txai",
+    "sobrenome": "Fonceca",
+    "email": "txaifonceca@gmail.com",
+    "telefone": "48996485945",
+    "apelido": "Txai",
+    "senha": "W8B73uTN^^Yl",
+    "role": "ADMIN",
+}
