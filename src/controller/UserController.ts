@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { UserBusiness } from "../business/UserBusiness";
 import { BaseDatabase } from "../data/BaseDatabase";
+import { BaseError } from "../Errors/BaseError";
 import { SignupInputDTO } from "../model/User";
 
 export class UserController {
@@ -26,7 +27,7 @@ export class UserController {
         token,
       });
     } catch (error: any) {
-      res.status(error.statusCode).send(error.message);
+      throw new BaseError(error.statusCode, error.sqlMessage || error.message);
     }
 
     await BaseDatabase.destroyConnection();
