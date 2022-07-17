@@ -51,11 +51,11 @@ export class UserBusiness {
       }
 
       const findEmail = await this.userDataBase.findUserEmail(email);
-      if (findEmail) {
+      if (!findEmail) {
         throw new invalidUserEmail();
       }
       const findCellphone = await this.userDataBase.findUserCellphone(telefone);
-      if (findCellphone) {
+      if (!findCellphone) {
         throw new invalidUserCellphone();
       }
 

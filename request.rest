@@ -9,5 +9,5 @@ Content-Type: application/json
     "telefone": "48996485945",
     "apelido": "Txai",
     "senha": "W8B73uTN^^Yl",
-    "role": "ADMIN",
+    "role": "ADMIN"
 }

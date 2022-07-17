@@ -1,3 +1,4 @@
+-- Active: 1658056894165@@127.0.0.1@3306@galodio
 CREATE DATABASE `galodio`;
 USE `galodio`;
 
