@@ -14,16 +14,13 @@ export interface SignupInputDTO {
   nome: string;
   sobrenome: string;
   email: string;
-  senha: string;
   telefone: string;
   role: string;
 }
 
 export interface Login {
-  email: string;
   senha: string;
-  apelido: string;
-  telefone: string;
+  email: string;
 }
 
 export interface AuthenticationData {

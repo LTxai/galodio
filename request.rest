@@ -11,3 +11,12 @@ Content-Type: application/json
     "senha": "W8B73uTN^^Yl",
     "role": "ADMIN"
 }
+
+###
+POST  http://localhost:3003/galodio/login
+Content-Type: application/json
+
+{
+    "email": "txaifonceca@gmail.com",
+    "senha": "W8B73uTN^^Yl"
+}
