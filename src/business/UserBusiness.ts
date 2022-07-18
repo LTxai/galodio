@@ -116,7 +116,10 @@ export class UserBusiness {
         ).senha
       );
       const authenticator = new Authenticator();
-      const token = authenticator.generate({ id: (await user).id });
+      const token = authenticator.generate({
+        id: (await user).id,
+        role: (await user).role,
+      });
 
       if (!passwordIsCorrect) {
         throw new invalidPassword();

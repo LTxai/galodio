@@ -6,7 +6,7 @@ export interface Signup {
   apelido: string;
   senha: string;
   telefone: string;
-  role: string;
+  role: UserRole;
 }
 
 export interface SignupInputDTO {
@@ -15,17 +15,12 @@ export interface SignupInputDTO {
   sobrenome: string;
   email: string;
   telefone: string;
-  role: string;
+  role: UserRole;
 }
 
 export interface Login {
   senha: string;
   email: string;
-}
-
-export interface AuthenticationData {
-  id: string;
-  role: string;
 }
 
 export interface User {
@@ -36,6 +31,7 @@ export interface User {
   apelido: string;
   senha: string;
   telefone: string;
+  role: UserRole;
 }
 
 export enum UserRole {
