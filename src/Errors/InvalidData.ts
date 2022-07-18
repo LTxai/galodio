@@ -41,3 +41,13 @@ export class invalidUserCellphone extends BaseError {
     super(401, "Telefone não encontrado!");
   }
 }
+export class invalidToken extends BaseError {
+  constructor() {
+    super(401, "Token inválido!");
+  }
+}
+export class invalidAuthenticatorData extends BaseError {
+  constructor() {
+      super(400, "Unauthorized user")
+  }
+}
