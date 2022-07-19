@@ -11,14 +11,3 @@ export interface JogoInputDTO {
   token: string;
 }
 
-export interface Palpite {
-  id: string;
-  golsGalo: number;
-  golsAdversario: number;
-  autorPalpite: string;
-}
-
-export interface PalpiteDTO {
-  golsGalo: number;
-  golsAdversario: number;
-}
