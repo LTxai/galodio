@@ -50,3 +50,6 @@ Ao fim da confecção, é esperado que o usuário possa efetuar login, desde que
 
 ### Desenvolvido por:
 [Lucas Txai](https://github.com/LTxai)
+
+### Documentação Postman:
+[Postman](https://documenter.getpostman.com/view/18693913/UzQyq3DL)
