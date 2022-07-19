@@ -27,6 +27,8 @@ NODEMAILER_PASS =
 
 ```
 
+As tabelas estão no arquivo queries.sql
+
 ## Sobre o projeto:
 
 Projeto feito com o intuito de colocar em prática conhecimentos em Nodejs, TypeScript, JavaScript e React.
