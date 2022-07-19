@@ -20,6 +20,7 @@ export class BolodioController {
 
       res.status(201).send({
         message: `Bolódio contra ${adversario} no dia ${dia} criado com sucesso!`,
+        token,
       });
     } catch (error: any) {
       throw new Error(error.sqlMessage || error.message);
