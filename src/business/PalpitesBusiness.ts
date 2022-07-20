@@ -62,6 +62,7 @@ export class PalpitesBusiness {
       const palpites = await this.palpitesDatabase.pegarPalpitesPorIdDeJogo(
         jogoId
       );
+      console.log(palpites);
       if (!palpites) {
         throw new invalidScoreboard();
       }

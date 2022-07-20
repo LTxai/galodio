@@ -20,3 +20,7 @@ Content-Type: application/json
     "email": "txaifonceca@gmail.com",
     "senha": "W8B73uTN^^Yl"
 }
+
+###
+GET http://localhost:3003/bolodio/jogos
+Content-Type: application/json

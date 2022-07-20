@@ -29,10 +29,10 @@ export class PalpiteDatabase extends BaseDatabase implements PalpiteRepository {
           "gols_galo as golsGalo",
           "gols_adv as golsAdversario",
           "autor_palpite as autorPalpite",
-          "jogo_id as jogoId"
+          "jogo as jogoId"
         )
         .where({
-          jogoId,
+          "palpite_bolodio.jogo": jogoId
         })
         .into(PalpiteDatabase.TABLE_NAME);
       return palpites;

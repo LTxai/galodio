@@ -27,7 +27,7 @@ export class PalpiteController {
   async pegarPalpites(req: Request, res: Response) {
     try {
       const token = req.headers.authorization as string;
-      const jogoId = req.params.jogo;
+      const jogoId = req.params.jogoId;
 
       const palpites = await this.palpiteBusiness.pegarPalpitesPorIdDeJogo(
         jogoId,

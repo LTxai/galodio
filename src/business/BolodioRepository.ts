@@ -1,5 +1,6 @@
-import { Jogo } from "../model/Bolodio";
+import { Jogo, Jogos } from "../model/Bolodio";
 
 export interface BolodioRepository {
   createBolodio(bolodio: Jogo): Promise<void>;
+  getBolodio(token: string): Promise<Jogos>;
 }
