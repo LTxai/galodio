@@ -24,7 +24,16 @@ export class PalpiteDatabase extends BaseDatabase implements PalpiteRepository {
   async pegarPalpitesPorIdDeJogo(): Promise<Palpite> {
     try {
       const [palpites] = await this.getConnection()
-        .select("*")
+        .select(
+          "id",
+          "gols_galo as golsGalo",
+          "gols_adv as golsAdversario",
+          "autor_palpite as autorPalpite",
+          "jogo as jogoId"
+        )
+        .where({
+          "palpite_bolodio.jogo": jogoId
+        })
         .into(PalpiteDatabase.TABLE_NAME);
       return palpites;
     } catch (error: any) {

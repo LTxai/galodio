@@ -12,3 +12,7 @@ const bolodioController = new BolodioController(bolodioBusiness);
 bolodioRouter.post("/criar-jogo", (req, res) =>
   bolodioController.createBolodioController(req, res)
 );
+
+bolodioRouter.get("/jogos", (req, res) =>
+  bolodioController.getBolodio(req, res)
+);
