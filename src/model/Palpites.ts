@@ -2,7 +2,7 @@ export interface Palpite {
   id: string;
   golsGalo: number;
   golsAdversario: number;
-  jogo: string;
+  jogoId: string;
   autorPalpite: string;
 }
 
@@ -10,6 +10,6 @@ export interface PalpiteDTO {
   golsGalo: number;
   golsAdversario: number;
   token: string;
-  jogo: string;
+  jogoId: string;
   autorPalpite: string;
 }
