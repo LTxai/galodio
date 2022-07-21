@@ -7,13 +7,13 @@ export class PalpiteController {
   async criaPalpite(req: Request, res: Response) {
     try {
       const token = req.headers.authorization as string;
-      const { autorPalpite, golsGalo, golsAdversario, jogo } = req.body;
+      const { autorPalpite, golsGalo, golsAdversario, jogoId } = req.body;
 
       const palpite: PalpiteDTO = {
         autorPalpite,
         golsAdversario,
         golsGalo,
-        jogo,
+        jogoId,
         token,
       };
 
@@ -27,10 +27,10 @@ export class PalpiteController {
   async pegarPalpites(req: Request, res: Response) {
     try {
       const token = req.headers.authorization as string;
-      const jogoId = req.params.jogoId;
+      const jogoId = req.params.jogo;
 
       const palpites = await this.palpiteBusiness.pegarPalpitesPorIdDeJogo(
-        jogo,
+        jogoId,
         token
       );
 

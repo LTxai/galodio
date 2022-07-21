@@ -13,7 +13,7 @@ export class PalpiteDatabase extends BaseDatabase implements PalpiteRepository {
           gols_galo: palpite.golsGalo,
           gols_adv: palpite.golsAdversario,
           autor_palpite: palpite.autorPalpite,
-          jogo: palpite.jogo,
+          jogo_id: palpite.jogoId,
         })
         .into(PalpiteDatabase.TABLE_NAME);
     } catch (error: any) {
@@ -21,7 +21,7 @@ export class PalpiteDatabase extends BaseDatabase implements PalpiteRepository {
     }
   }
 
-  async pegarPalpitesPorIdDeJogo(): Promise<Palpite> {
+  async pegarPalpitesPorIdDeJogo(jogoId: string): Promise<Palpite> {
     try {
       const [palpites] = await this.getConnection()
         .select(
@@ -32,7 +32,7 @@ export class PalpiteDatabase extends BaseDatabase implements PalpiteRepository {
           "jogo as jogoId"
         )
         .where({
-          "palpite_bolodio.jogo": jogoId
+          "palpite_bolodio.jogo": jogoId,
         })
         .into(PalpiteDatabase.TABLE_NAME);
       return palpites;
