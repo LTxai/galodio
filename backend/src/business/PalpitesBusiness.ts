@@ -14,7 +14,7 @@ export class PalpitesBusiness {
 
   async criarPalpite(inputPalpite: PalpiteDTO) {
     try {
-      const { golsGalo, golsAdversario, token, autorPalpite, jogo } =
+      const { golsGalo, golsAdversario, token, autorPalpite, jogoId } =
         inputPalpite;
 
       if (!token) {
@@ -39,7 +39,7 @@ export class PalpitesBusiness {
         golsAdversario,
         golsGalo,
         autorPalpite,
-        jogo,
+        jogoId,
       };
 
       await this.palpitesDatabase.criarPalpite(novoPalpite);
