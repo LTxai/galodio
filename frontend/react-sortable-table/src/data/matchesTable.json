@@ -1,0 +1,434 @@
+{
+  "JOGO_1": [
+    {
+      "TIME_1": "Catar",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Equador",
+      "id": 1
+    }
+  ],
+  "JOGO_2": [
+    {
+      "TIME_1": "Inglaterra",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Irã",
+      "id": 2
+    }
+  ],
+  "JOGO_3": [
+    {
+      "TIME_1": "Senegal",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Holanda",
+      "id": 3
+    }
+  ],
+  "JOGO_4": [
+    {
+      "TIME_1": "EUA",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Gales",
+      "id": 4
+    }
+  ],
+  "JOGO_5": [
+    {
+      "TIME_1": "Argentina",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Arábia Saudita",
+      "id": 5
+    }
+  ],
+  "JOGO_6": [
+    {
+      "TIME_1": "Dinamarca",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Tunísia",
+      "id": 6
+    }
+  ],
+  "JOGO_7": [
+    {
+      "TIME_1": "México",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Polônia",
+      "id": 7
+    }
+  ],
+  "JOGO_8": [
+    {
+      "TIME_1": "França",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Austrália",
+      "id": 8
+    }
+  ],
+  "JOGO_9": [
+    {
+      "TIME_1": "Marrocos",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Croácia",
+      "id": 9
+    }
+  ],
+  "JOGO_10": [
+    {
+      "TIME_1": "Alemanha",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Japão",
+      "id": 10
+    }
+  ],
+  "JOGO_11": [
+    {
+      "TIME_1": "Espanha",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Costa Rica",
+      "id": 11
+    }
+  ],
+  "JOGO_12": [
+    {
+      "TIME_1": "Bélgica",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Canadá",
+      "id": 12
+    }
+  ],
+  "JOGO_13": [
+    {
+      "TIME_1": "Suíça",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Camarões",
+      "id": 13
+    }
+  ],
+  "JOGO_14": [
+    {
+      "TIME_1": "Uruguai",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Coreia do Sul",
+      "id": 14
+    }
+  ],
+  "JOGO_15": [
+    {
+      "TIME_1": "Portugal",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Gana",
+      "id": 15
+    }
+  ],
+  "JOGO_16": [
+    {
+      "TIME_1": "Brasil",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Sérvia",
+      "id": 16
+    }
+  ],
+  "JOGO_17": [
+    {
+      "TIME_1": "Gales",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Irã",
+      "id": 17
+    }
+  ],
+  "JOGO_18": [
+    {
+      "TIME_1": "Catar",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Senegal",
+      "id": 18
+    }
+  ],
+  "JOGO_19": [
+    {
+      "TIME_1": "Holanda",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Equador",
+      "id": 19
+    }
+  ],
+  "JOGO_20": [
+    {
+      "TIME_1": "Inglaterra",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "EUA",
+      "id": 20
+    }
+  ],
+  "JOGO_21": [
+    {
+      "TIME_1": "Tunísia",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Austrália",
+      "id": 21
+    }
+  ],
+  "JOGO_22": [
+    {
+      "TIME_1": "Polônia",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Arábia Saudita",
+      "id": 22
+    }
+  ],
+  "JOGO_23": [
+    {
+      "TIME_1": "França",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Dinamarca",
+      "id": 23
+    }
+  ],
+  "JOGO_24": [
+    {
+      "TIME_1": "Argentina",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "México",
+      "id": 24
+    }
+  ],
+  "JOGO_25": [
+    {
+      "TIME_1": "Japão",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Costa Rica",
+      "id": 25
+    }
+  ],
+  "JOGO_26": [
+    {
+      "TIME_1": "Bélgica",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Marrocos",
+      "id": 26
+    }
+  ],
+  "JOGO_27": [
+    {
+      "TIME_1": "Croácia",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Canadá",
+      "id": 27
+    }
+  ],
+  "JOGO_28": [
+    {
+      "TIME_1": "Espanha",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Alemanha",
+      "id": 28
+    }
+  ],
+  "JOGO_29": [
+    {
+      "TIME_1": "Camarões",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Sérvia",
+      "id": 29
+    }
+  ],
+  "JOGO_30": [
+    {
+      "TIME_1": "Coreia do Sul",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Gana",
+      "id": 30
+    }
+  ],
+  "JOGO_31": [
+    {
+      "TIME_1": "Brasil",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Suíça",
+      "id": 31
+    }
+  ],
+  "JOGO_32": [
+    {
+      "TIME_1": "Portugal",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Uruguai",
+      "id": 32
+    }
+  ],
+  "JOGO_33": [
+    {
+      "TIME_1": "Holanda",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Catar",
+      "id": 33
+    }
+  ],
+  "JOGO_34": [
+    {
+      "TIME_1": "Equador",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Senegal",
+      "id": 34
+    }
+  ],
+  "JOGO_35": [
+    {
+      "TIME_1": "Gales",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Inglaterra",
+      "id": 35
+    }
+  ],
+  "JOGO_36": [
+    {
+      "TIME_1": "Irã",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "EUA",
+      "id": 36
+    }
+  ],
+  "JOGO_37": [
+    {
+      "TIME_1": "Tunísia",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "França",
+      "id": 37
+    }
+  ],
+  "JOGO_38": [
+    {
+      "TIME_1": "Austrália",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Dinamarca",
+      "id": 38
+    }
+  ],
+  "JOGO_39": [
+    {
+      "TIME_1": "Polônia",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Argentina",
+      "id": 39
+    }
+  ],
+  "JOGO_40": [
+    {
+      "TIME_1": "Arábia Saudita",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "México",
+      "id": 40
+    }
+  ],
+  "JOGO_41": [
+    {
+      "TIME_1": "Croácia",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Bélgica",
+      "id": 41
+    }
+  ],
+  "JOGO_42": [
+    {
+      "TIME_1": "Canadá",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Marrocos",
+      "id": 42
+    }
+  ],
+  "JOGO_43": [
+    {
+      "TIME_1": "Japão",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Espanha",
+      "id": 43
+    }
+  ],
+  "JOGO_44": [
+    {
+      "TIME_1": "Costa Rica",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Alemanha",
+      "id": 44
+    }
+  ],
+  "JOGO_45": [
+    {
+      "TIME_1": "Coreia do Sul",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Portugal",
+      "id": 45
+    }
+  ],
+  "JOGO_46": [
+    {
+      "TIME_1": "Gana",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Uruguai",
+      "id": 46
+    }
+  ],
+  "JOGO_47": [
+    {
+      "TIME_1": "Camarões",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Brasil",
+      "id": 47
+    }
+  ],
+  "JOGO_48": [
+    {
+      "TIME_1": "Sérvia",
+      "GOLS_TIME_1": 0,
+      "GOLS_TIME_2": 0,
+      "TIME_2": "Suíça",
+      "id": 48
+    }
+  ]
+}
