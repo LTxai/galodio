@@ -6,10 +6,10 @@ import Palpites from "./pages/palpites";
 
 const columns = [
   { label: "Posição" },
-  { label: "Nome", accessor: "name", sortable: false },
-  { label: "Pontos", accessor: "points", sortable: true },
-  { label: "Acertos", accessor: "guess", sortable: false, sortbyOrder: "desc" },
-  { label: "Gols", accessor: "goals1", sortable: false }
+  { label: "Nome", accessor: "name", sortable: false, sortbyOrder: "desc" },
+  { label: "Pontos", accessor: "points", sortable: false, sortbyOrder: "desc" },
+  { label: "Acertos", accessor: "guess", sortable: false, sortbyOrder: "desc"},
+  { label: "Gols", accessor: "goals", sortable: false, sortbyOrder: "desc"}
 ];
 
 const App = () => {
@@ -50,7 +50,7 @@ const App = () => {
           <Text fontWeight={"extrabold"}>Como funciona:</Text>
           <Text>"Acertos" é o número de palpites que a pessoa acertou, e "Gols" é o número de gols (por seleção) que a pessoa acertou.</Text>
           <Text>Cada Acerto vale 5 pontos, cada Gol vale 2.</Text>
-          <Text> Ou seja, a pessoa que acerta o palpite ganha 9 pontos: 5 pontos do Acerto + 4 pontos dos gols</Text>
+          <Text>Ou seja, a pessoa que acerta o palpite ganha 9 pontos: 5 pontos do Acerto + 4 pontos dos gols</Text>
         </Flex>
       </Flex>
     </ChakraProvider>
