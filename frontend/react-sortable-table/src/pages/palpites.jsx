@@ -193,14 +193,14 @@ const Palpites = ({ matches }) => {
         isFitted
         variant={"soft-rounded"}
         colorScheme="blackAlpha"
-        orientation="vertical"
+        orientation="horizontal"
       >
-        {/* <Box>
+        <Box>
           <Center>
             <TabList
               mt={"15px"}
               maxH={"70vh"}
-              overflowY={"scroll"}
+              // overflowY={"scroll"}
               css={{
                 "&::-webkit-scrollbar": {
                   width: " 13px",
@@ -219,15 +219,15 @@ const Palpites = ({ matches }) => {
               {tab}
             </TabList>
           </Center>
-        </Box> */}
+        </Box> 
         <TabPanels>
           <TabPanel>
             <PalpitesCard jogos={match1} />
           </TabPanel>
-          {/* <TabPanel>
+          <TabPanel>
             <PalpitesCard jogos={match2} />
           </TabPanel>
-          <TabPanel>
+          {/* <TabPanel>
             <PalpitesCard jogos={match3} />
           </TabPanel>
           <TabPanel>
