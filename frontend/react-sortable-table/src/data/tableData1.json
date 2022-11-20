@@ -157,5 +157,13 @@
     "goals1": 0,
     "goals2": 0,
     "points" : 0
+  },
+  {
+    "id": "20",
+    "name": "Yuri",
+    "guess": 0,
+    "goals1": 0,
+    "goals2": 0,
+    "points" : 0
   }
 ]
