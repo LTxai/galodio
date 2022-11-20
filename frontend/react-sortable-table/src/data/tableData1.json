@@ -133,5 +133,29 @@
     "goals1": 0,
     "goals2": 0,
     "points" : 0
+  },
+  {
+    "id": "17",
+    "name": "Vic",
+    "guess": 0,
+    "goals1": 0,
+    "goals2": 0,
+    "points" : 0
+  },
+  {
+    "id": "18",
+    "name": "Juliana",
+    "guess": 0,
+    "goals1": 0,
+    "goals2": 0,
+    "points" : 0
+  },
+  {
+    "id": "19",
+    "name": "Alexandre",
+    "guess": 0,
+    "goals1": 0,
+    "goals2": 0,
+    "points" : 0
   }
 ]
