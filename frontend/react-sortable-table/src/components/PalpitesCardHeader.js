@@ -1,4 +1,4 @@
-import { Box, CardHeader, Center, Flex, Heading, Image, Tooltip } from "@chakra-ui/react"
+import { Box, CardHeader, Center, Flex, Heading, Image, Popover, PopoverArrow, PopoverCloseButton, PopoverContent, PopoverHeader, PopoverTrigger, Tooltip } from "@chakra-ui/react"
 
 const PalpitesCardHeader = ({ props }) => {
 
@@ -11,13 +11,27 @@ const PalpitesCardHeader = ({ props }) => {
                         <Flex flexDir={'column'} >
                             <Center>
                                 <Flex>
-                                    <Tooltip label={team.TIME_1} closeOnClick={false}>
-                                        <Image bo borderRadius={"5px"} src={team.LOGO_1} maxW={"80px"} maxH={"53.3px"} mr={"20px"} />
-                                    </Tooltip>
+                                    <Popover>
+                                        <PopoverTrigger>
+                                            <Image borderRadius={"5px"} src={team.LOGO_1} maxW={"80px"} maxH={"53.3px"} mr={"20px"} />
+                                        </PopoverTrigger>
+                                        <PopoverContent>
+                                            <PopoverArrow />
+                                            <PopoverCloseButton />
+                                            <PopoverHeader>{team.TIME_1}</PopoverHeader>
+                                        </PopoverContent>
+                                    </Popover>
                                     <Heading>X</Heading>
-                                    <Tooltip label={team.TIME_2} closeOnClick={false}>
-                                        <Image borderRadius={"5px"} ml={'20px'} src={team.LOGO_2} maxW={"80px"} maxH={"53.3px"} />
-                                    </Tooltip>
+                                    <Popover>
+                                        <PopoverTrigger>
+                                            <Image borderRadius={"5px"} ml={'20px'} src={team.LOGO_2} maxW={"80px"} maxH={"53.3px"} />
+                                        </PopoverTrigger>
+                                        <PopoverContent clos>
+                                            <PopoverArrow />
+                                            <PopoverCloseButton />
+                                            <PopoverHeader>{team.TIME_2}</PopoverHeader>
+                                        </PopoverContent>
+                                    </Popover>
                                 </Flex>
                             </Center>
                             <Box>
