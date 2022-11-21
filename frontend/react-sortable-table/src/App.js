@@ -8,9 +8,9 @@ import Palpites from "./pages/palpites";
 const columns = [
   { label: "Posição" },
   { label: "Nome", accessor: "name", sortable: false, sortbyOrder: "desc" },
-  { label: "Pontos", accessor: "points", sortable: false, sortbyOrder: "desc" },
+  { label: "Pontos", accessor: "points", sortable: true, sortbyOrder: "desc" },
   { label: "Acertos", accessor: "guess", sortable: false, sortbyOrder: "desc"},
-  { label: "Gols", accessor: "goals", sortable: false, sortbyOrder: "desc"}
+  { label: "Gols", accessor: "goals", sortable: false, sortbyOrder: "desc"},
 ];
 
 const App = () => {

@@ -14,6 +14,8 @@ const PalpitesCard = ({ jogos }) => {
         jogo = guessingTable.JOGO_2
     } else if (jogos[0].Jogo === "Jogo 3") {
         jogo = guessingTable.JOGO_3
+    } else if (jogos[0].Jogo === "Jogo 4") {
+        jogo = guessingTable.JOGO_4
     }
 
 
