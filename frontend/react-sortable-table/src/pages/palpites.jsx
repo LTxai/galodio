@@ -218,7 +218,7 @@ const Palpites = ({ matches }) => {
               {tab}
             </TabList>
           </Center>
-        </Box> 
+        </Box>
         <TabPanels>
           <TabPanel>
             <PalpitesCard jogos={match1} />
@@ -229,9 +229,10 @@ const Palpites = ({ matches }) => {
           <TabPanel>
             <PalpitesCard jogos={match3} />
           </TabPanel>
-          {/* <TabPanel>
+          <TabPanel>
             <PalpitesCard jogos={match4} />
           </TabPanel>
+          {/*
           <TabPanel>
             <PalpitesCard jogos={match5} />
           </TabPanel>

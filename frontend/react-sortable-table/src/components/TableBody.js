@@ -9,6 +9,7 @@ const TableBody = ({ tableData, columns }) => {
         return (
           <Tr key={data.id}>
             {columns.map(({ accessor }, index) => {
+              console.log(data)
               const tData = data[accessor] ? data[accessor] : 0;
               return <Td textAlign={"center"} key={accessor}>{index !== 0 ? tData : data.position}</Td>;
             })}

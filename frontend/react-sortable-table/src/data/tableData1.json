@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Txai",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   
@@ -19,7 +19,7 @@
     "id": "3",
     "name": "Lets",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   
@@ -35,7 +35,7 @@
     "id": "5",
     "name": "Brenda",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   
@@ -87,7 +87,7 @@
     "id": "12",
     "name": "Thasya",
     "guess": 0,
-    "goals": 2,
+    "goals": 3,
     "points" : 0
   },
   {
@@ -101,7 +101,7 @@
     "id": "14",
     "name": "Luciane",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   {
@@ -115,7 +115,7 @@
     "id": "16",
     "name": "Lucas",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   {
@@ -128,36 +128,36 @@
   {
     "id": "18",
     "name": "Juliana",
-    "guess": 0,
-    "goals": 0,
+    "guess": 1,
+    "goals": 2,
     "points" : 0
   },
   {
     "id": "19",
     "name": "Alexandre",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   {
     "id": "20",
     "name": "Yuri",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   {
     "id": "21",
     "name": "Jeanne",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   {
     "id": "22",
-    "name": "Ivan",
-    "guess": 0,
-    "goals": 0,
+    "name": "André",
+    "guess": 1,
+    "goals": 2,
     "points" : 0
   },
   {
@@ -172,6 +172,13 @@
     "name": "Ivan",
     "guess": 0,
     "goals": 0,
+    "points" : 0
+  },
+  {
+    "id": "25",
+    "name": "Jesus Thiago",
+    "guess": 0,
+    "goals": 1,
     "points" : 0
   }
 ]
