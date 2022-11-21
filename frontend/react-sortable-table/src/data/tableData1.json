@@ -152,5 +152,26 @@
     "guess": 0,
     "goals": 0,
     "points" : 0
+  },
+  {
+    "id": "22",
+    "name": "Ivan",
+    "guess": 0,
+    "goals": 0,
+    "points" : 0
+  },
+  {
+    "id": "23",
+    "name": "Pedro",
+    "guess": 0,
+    "goals": 0,
+    "points" : 0
+  },
+  {
+    "id": "24",
+    "name": "Ivan",
+    "guess": 0,
+    "goals": 0,
+    "points" : 0
   }
 ]

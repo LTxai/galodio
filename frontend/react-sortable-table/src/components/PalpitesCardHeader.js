@@ -11,11 +11,11 @@ const PalpitesCardHeader = ({ props }) => {
                         <Flex flexDir={'column'} >
                             <Center>
                                 <Flex>
-                                    <Tooltip label={team.TIME_1}>
+                                    <Tooltip label={team.TIME_1} closeOnClick={false}>
                                         <Image bo borderRadius={"5px"} src={team.LOGO_1} maxW={"80px"} maxH={"53.3px"} mr={"20px"} />
                                     </Tooltip>
                                     <Heading>X</Heading>
-                                    <Tooltip label={team.TIME_2}>
+                                    <Tooltip label={team.TIME_2} closeOnClick={false}>
                                         <Image borderRadius={"5px"} ml={'20px'} src={team.LOGO_2} maxW={"80px"} maxH={"53.3px"} />
                                     </Tooltip>
                                 </Flex>

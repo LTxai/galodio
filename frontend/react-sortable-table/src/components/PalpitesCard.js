@@ -1,9 +1,19 @@
 import { Box, Card, CardBody, Center, Stack, StackDivider, Table, TableContainer, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react"
 import PalpitesBody from "./PalpitesBody"
 import PalpitesCardHeader from "./PalpitesCardHeader"
+import guessingTable from '../data/guessingTable.json'
 
 
 const PalpitesCard = ({ jogos }) => {
+
+    let jogo = guessingTable
+
+    if (jogos[0].Jogo === "Jogo 1") {
+        jogo = guessingTable.JOGO_1
+    } else if (jogos[0].Jogo === "Jogo 2") {
+        jogo = guessingTable.JOGO_2
+    }
+
 
     return (
         <Center bgColor={'blackAlpha.300'} boxShadow={"dark-lg"}>
@@ -33,7 +43,7 @@ const PalpitesCard = ({ jogos }) => {
                                             <Th>Palpite</Th>
                                         </Tr>
                                     </Thead>
-                                    <PalpitesBody />
+                                    <PalpitesBody jogo={jogo}/>
                                 </Table>
                             </TableContainer>
                         </Box>

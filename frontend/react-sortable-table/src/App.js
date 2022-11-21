@@ -2,6 +2,7 @@ import { Box, Center, ChakraProvider, Flex, Heading, Image, Kbd, Tab, TabList, T
 import BolodioTable from "./components/Table";
 import tableData1 from "./data/tableData1.json";
 import mascote from "./images/mascote_final_1.png"
+import StyleColorMode from "./pages/DarkModeButton";
 import Palpites from "./pages/palpites";
 
 const columns = [
@@ -20,6 +21,7 @@ const App = () => {
           <Image src={mascote} alt="Mascote Galodinho" zIndex={"-1"} w={"140px"} />
           <Heading my={"20px"} zIndex={"999"} ml={"-40px"}> Bolódio 2022</Heading>
           <Image src={mascote} alt="Mascote Galodinho" zIndex={"-1"} w={"140px"} ml={"-3%"} />
+          <StyleColorMode />
         </Center>
         <Center>
           <Kbd mb={"20px"}>Edição especial Copa do Mundo</Kbd>

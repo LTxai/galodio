@@ -12,7 +12,6 @@ import matchesTable from "../data/matchesTable1.json";
 
 const Palpites = ({ matches }) => {
   matches = matchesTable;
-  console.log(matches);
 
   let match1 = matches.filter((jogo) => {
     return jogo.Jogo === `Jogo ${1}`;
