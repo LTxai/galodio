@@ -38,5 +38,45 @@
     "TIME_2": "País de Gales",
     "LOGO_2": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/188px-Flag_of_Wales.svg.png",
     "id": 4
+  },
+  {
+    "Jogo": "Jogo 5",
+    "TIME_1": "Argentina",
+    "LOGO_1": "https://www.bandeirasnacionais.com/data/flags/w702/ar.webp",
+    "GOLS_TIME_1": 0,
+    "GOLS_TIME_2": 0,
+    "TIME_2": "Arábia Saudita",
+    "LOGO_2": "https://www.bandeirasnacionais.com/data/flags/w702/sa.webp",
+    "id": 5
+  },
+  {
+    "Jogo": "Jogo 6",
+    "TIME_1": "Dinamarca",
+    "LOGO_1": "https://www.bandeirasnacionais.com/data/flags/w702/dk.webp",
+    "GOLS_TIME_1": 0,
+    "GOLS_TIME_2": 0,
+    "TIME_2": "Tunísia",
+    "LOGO_2": "https://www.bandeirasnacionais.com/data/flags/w702/tn.webp",
+    "id": 6
+  },
+  {
+    "Jogo": "Jogo 7",
+    "TIME_1": "México",
+    "LOGO_1": "https://www.bandeirasnacionais.com/data/flags/w702/mx.webp",
+    "GOLS_TIME_1": 0,
+    "GOLS_TIME_2": 0,
+    "TIME_2": "Polônia",
+    "LOGO_2": "https://www.bandeirasnacionais.com/data/flags/w702/pl.webp",
+    "id": 7
+  },
+  {
+    "Jogo": "Jogo 8",
+    "TIME_1": "França",
+    "LOGO_1": "https://www.bandeirasnacionais.com/data/flags/w702/fr.webp",
+    "GOLS_TIME_1": 0,
+    "GOLS_TIME_2": 0,
+    "TIME_2": "Austrália",
+    "LOGO_2": "https://www.bandeirasnacionais.com/data/flags/w702/au.webp",
+    "id": 8
   }
 ]

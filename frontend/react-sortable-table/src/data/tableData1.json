@@ -11,7 +11,7 @@
     "id": "2",
     "name": "Ângelo",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   
@@ -34,8 +34,8 @@
   {
     "id": "5",
     "name": "Brenda",
-    "guess": 0,
-    "goals": 2,
+    "guess": 1,
+    "goals": 4,
     "points" : 0
   },
   
@@ -43,7 +43,7 @@
     "id": "6",
     "name": "Feliz",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   
@@ -59,7 +59,7 @@
     "id": "8",
     "name": "Frango",
     "guess": 1,
-    "goals": 2,
+    "goals": 3,
     "points" : 0
   },
   {
@@ -87,21 +87,21 @@
     "id": "12",
     "name": "Thasya",
     "guess": 0,
-    "goals": 3,
+    "goals": 4,
     "points" : 0
   },
   {
     "id": "13",
     "name": "Natália",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   {
     "id": "14",
     "name": "Luciane",
-    "guess": 0,
-    "goals": 1,
+    "guess": 1,
+    "goals": 3,
     "points" : 0
   },
   {
@@ -129,14 +129,14 @@
     "id": "18",
     "name": "Juliana",
     "guess": 1,
-    "goals": 2,
+    "goals": 3,
     "points" : 0
   },
   {
     "id": "19",
     "name": "Alexandre",
     "guess": 0,
-    "goals": 2,
+    "goals": 3,
     "points" : 0
   },
   {
@@ -149,8 +149,8 @@
   {
     "id": "21",
     "name": "Jeanne",
-    "guess": 0,
-    "goals": 1,
+    "guess": 1,
+    "goals": 3,
     "points" : 0
   },
   {
@@ -171,7 +171,7 @@
     "id": "24",
     "name": "Ivan",
     "guess": 0,
-    "goals": 0,
+    "goals": 1,
     "points" : 0
   },
   {
