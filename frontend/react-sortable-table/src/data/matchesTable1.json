@@ -33,8 +33,8 @@
     "Jogo": "Jogo 4",
     "TIME_1": "Estados Unidos da América",
     "LOGO_1": "https://www.bandeirasnacionais.com/data/flags/w702/us.webp",
-    "GOLS_TIME_1": 0,
-    "GOLS_TIME_2": 0,
+    "GOLS_TIME_1": 1,
+    "GOLS_TIME_2": 1,
     "TIME_2": "País de Gales",
     "LOGO_2": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/188px-Flag_of_Wales.svg.png",
     "id": 4
@@ -43,8 +43,8 @@
     "Jogo": "Jogo 5",
     "TIME_1": "Argentina",
     "LOGO_1": "https://www.bandeirasnacionais.com/data/flags/w702/ar.webp",
-    "GOLS_TIME_1": 0,
-    "GOLS_TIME_2": 0,
+    "GOLS_TIME_1": 1,
+    "GOLS_TIME_2": 2,
     "TIME_2": "Arábia Saudita",
     "LOGO_2": "https://www.bandeirasnacionais.com/data/flags/w702/sa.webp",
     "id": 5
