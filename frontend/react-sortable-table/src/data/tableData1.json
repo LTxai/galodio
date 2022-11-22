@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Txai",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   
@@ -43,7 +43,7 @@
     "id": "6",
     "name": "Feliz",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   
@@ -66,7 +66,7 @@
     "id": "9",
     "name": "Luiza Campos",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   {
@@ -94,14 +94,14 @@
     "id": "13",
     "name": "Natália",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   {
     "id": "14",
     "name": "Luciane",
     "guess": 1,
-    "goals": 4,
+    "goals": 5,
     "points" : 0
   },
   {
@@ -115,14 +115,14 @@
     "id": "16",
     "name": "Lucas",
     "guess": 0,
-    "goals": 2,
+    "goals": 3,
     "points" : 0
   },
   {
     "id": "17",
     "name": "Vic",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   {
@@ -136,7 +136,7 @@
     "id": "19",
     "name": "Alexandre",
     "guess": 0,
-    "goals": 4,
+    "goals": 5,
     "points" : 0
   },
   {
@@ -171,7 +171,7 @@
     "id": "24",
     "name": "Ivan",
     "guess": 0,
-    "goals": 1,
+    "goals": 2,
     "points" : 0
   },
   {
