@@ -39,7 +39,7 @@ const App = () => {
             <TabPanel>
               <Center>
                 <BolodioTable
-                  data={tableData2}
+                  data={tableData1}
                   columns={columns}
                 />
               </Center>
