@@ -1,6 +1,7 @@
 import { Box, Center, ChakraProvider, Flex, Heading, Image, Kbd, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react";
 import BolodioTable from "./components/Table";
 import tableData1 from "./data/tableData1.json";
+import tableData2 from "./data/guessingTable";
 import mascote from "./images/mascote_final_1.png"
 import StyleColorMode from "./pages/DarkModeButton";
 import Palpites from "./pages/palpites";
@@ -38,7 +39,7 @@ const App = () => {
             <TabPanel>
               <Center>
                 <BolodioTable
-                  data={tableData1}
+                  data={tableData2}
                   columns={columns}
                 />
               </Center>

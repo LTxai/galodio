@@ -1,5 +1,6 @@
 import { Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react"
 import guessingTable from '../data/guessingTable.json'
+
 const PalpitesBody = ({palpites, jogo}) => {
 
     palpites = guessingTable
